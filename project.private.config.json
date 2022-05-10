@@ -1,0 +1,32 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "美食",
+          "pathName": "pages/shoplist/shoplist",
+          "query": "id=1&title=%E7%BE%8E%E9%A3%9F",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "消息",
+          "pathName": "pages/message/message",
+          "query": "",
+          "scene": null,
+          "launchMode": "default"
+        }
+      ]
+    }
+  }
+}

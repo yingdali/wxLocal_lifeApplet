@@ -1,0 +1,13 @@
+function splitPhone(str){
+  if(str.length!==11)return str
+  //分割成空字符数组
+  var arr=str.split('')
+  //从第三位起，不删除元素，添加-
+  arr.splice(3,0,'-')
+  arr.splice(8,0,'-')
+  return arr.join('')
+}
+
+module.exports={
+  splitPhone:splitPhone
+}
