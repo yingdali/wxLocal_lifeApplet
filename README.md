@@ -1,0 +1,2 @@
+# wxLocal_lifeApplet
+一款微信原生框架开发的本地生活小程序
